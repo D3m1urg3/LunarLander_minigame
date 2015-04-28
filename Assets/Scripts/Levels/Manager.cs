@@ -9,6 +9,7 @@ public struct man
 	public static CameraManager cameraManager;
 	public static CollisionManager colManager;
 	public static OverlayTextManager textManager;
+	public static MobileControlsManager mobileManager;
 
 }
 
@@ -20,6 +21,7 @@ public class Manager : MonoBehaviour {
 	public CameraManager theCamera;
 	public CollisionManager colliders;
 	public OverlayTextManager messages;
+	public MobileControlsManager mobile;
 
 	void Awake () {
 	
@@ -29,6 +31,7 @@ public class Manager : MonoBehaviour {
 		man.cameraManager = theCamera;
 		man.colManager = colliders;
 		man.textManager = messages;
+		man.mobileManager = mobile;
 	}
 	
 

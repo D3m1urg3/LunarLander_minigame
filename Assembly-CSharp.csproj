@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Levels\CollisionManager.cs" />
      <Compile Include="Assets\Scripts\Levels\LanPadValue.cs" />
      <Compile Include="Assets\Scripts\Levels\Manager.cs" />
+     <Compile Include="Assets\Scripts\Levels\MobileControlsManager.cs" />
      <Compile Include="Assets\Scripts\Levels\OverlayTextManager.cs" />
      <Compile Include="Assets\Scripts\Levels\ShipCollisionRegister.cs" />
      <Compile Include="Assets\Scripts\Levels\SpaceShipManager.cs" />
